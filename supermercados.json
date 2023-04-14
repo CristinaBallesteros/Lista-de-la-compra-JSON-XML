@@ -1,0 +1,127 @@
+{
+    "supermercados": [
+      {
+        "nombre": "Alcampo",
+        "direccion": "Calle A, 123",
+        "geolocalizacion": {
+          "latitud": 40.4168,
+          "longitud": -3.7038
+        },
+        "productos": [
+          {
+            "nombre": "Leche",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-04-01",
+              "fin": "2023-04-15"
+            },
+            "habitual": true,
+            "unidades": 1,
+            "unidad_medida": "litros",
+            "precio": 0.99,
+            "adquirido": true
+          },
+          {
+            "nombre": "Huevos",
+            "oferta": false,
+            "habitual": true,
+            "unidades": 12,
+            "unidad_medida": "unidades",
+            "precio": 1.99,
+            "adquirido": false
+          },
+          {
+            "nombre": "Galletas",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-04-22",
+              "fin": "2023-04-30"
+            },
+            "habitual": true,
+            "unidades": 2,
+            "unidad_medida": "paquetes",
+            "precio": 1.05,
+            "adquirido": false
+          }
+        ]
+      },
+      {
+        "nombre": "Mercadona",
+        "direccion": "Calle B, 456",
+        "geolocalizacion": {
+          "latitud": 40.4276,
+          "longitud": -3.7083
+        },
+        "productos": [
+          {
+            "nombre": "Carne de ternera",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-04-05",
+              "fin": "2023-04-10"
+            },
+            "habitual": false,
+            "unidades": 1,
+            "unidad_medida": "kilos",
+            "precio": 9.99,
+            "adquirido": false
+          },
+          {
+            "nombre": "Pan de molde",
+            "oferta": false,
+            "habitual": true,
+            "unidades": 1,
+            "unidad_medida": "paquete",
+            "precio": 1.50,
+            "adquirido": true
+          },
+          {
+            "nombre":"Patatas",
+            "oferta":true,
+            "periodo_vigencia":{
+              "inicio": "2023-05-03",
+              "fin":"2023-05-12"
+            },
+            "habitual":true,
+            "unidades":5,
+            "unidad_medida":"kilos",
+            "precio":5.90,
+            "adquirido":false
+          }
+        ]
+      },
+      {
+        "nombre": "Día",
+        "direccion": "Calle C, 789",
+        "geolocalizacion": {
+          "latitud": 53.4267,
+          "longitud": -10.706
+        },
+        "productos": [
+          {
+            "nombre": "Pollo",
+            "oferta": true,
+            "periodo_vigencia": {
+              "inicio": "2023-04-15",
+              "fin": "2023-04-25"
+            },
+            "habitual": true,
+            "unidades": 1,
+            "unidad_medida": "kilos",
+            "precio": 6.50,
+            "adquirido": true
+          },
+          {
+            "nombre": "Yogures",
+            "oferta": false,
+            "habitual": true,
+            "unidades": 1,
+            "unidad_medida": "paquete",
+            "precio": 1.25,
+            "adquirido": true
+          }
+        ]
+      }
+    ]
+  }
+  
