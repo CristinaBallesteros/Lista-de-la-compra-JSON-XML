@@ -1,46 +1,114 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<root>
   <supermercados>
-    <nombre>Alcampo</nombre>
-    <direccion>Calle A, 123</direccion>
-    <geolocalizacion>
-      <latitud>40.4168</latitud>
-      <longitud>-3.7038</longitud>
-    </geolocalizacion>
-    <productos>
-      <nombre>Leche</nombre>
-      <oferta>true</oferta>
-      <periodo_vigencia>
-        <inicio>2023-04-01</inicio>
-        <fin>2023-04-15</fin>
-      </periodo_vigencia>
-      <habitual>true</habitual>
-      <unidades>1</unidades>
-      <unidad_medida>litros</unidad_medida>
-      <precio>0.99</precio>
-      <adquirido>true</adquirido>
-    </productos>
-    <productos>
-      <nombre>Huevos</nombre>
-      <oferta>false</oferta>
-      <habitual>true</habitual>
-      <unidades>12</unidades>
-      <unidad_medida>unidades</unidad_medida>
-      <precio>1.99</precio>
-      <adquirido>false</adquirido>
-    </productos>
-    <productos>
-      <nombre>Galletas</nombre>
-      <oferta>true</oferta>
-      <periodo_vigencia>
-        <inicio>2023-04-22</inicio>
-        <fin>2023-04-30</fin>
-      </periodo_vigencia>
-      <habitual>true</habitual>
-      <unidades>2</unidades>
-      <unidad_medida>paquetes</unidad_medida>
-      <precio>1.05</precio>
-      <adquirido>false</adquirido>
-    </productos>
+    <Alcampo>
+      <direccion>Calle Alcala, 123</direccion>
+      <geolocalizacion>
+        <latitud>40.4168</latitud>
+        <longitud>-3.7038</longitud>
+      </geolocalizacion>
+      <productos>
+        <Leche>
+          <oferta>true</oferta>
+          <periodo_vigencia>
+            <inicio>2023-04-01</inicio>
+            <fin>2023-04-15</fin>
+          </periodo_vigencia>
+          <habitual>true</habitual>
+          <unidades>6</unidades>
+          <unidad_medida>litros</unidad_medida>
+          <precio>0.99</precio>
+          <adquirido>true</adquirido>
+        </Leche>
+        <Huevos>
+          <oferta>false</oferta>
+          <habitual>true</habitual>
+          <unidades>12</unidades>
+          <unidad_medida>unidades</unidad_medida>
+          <precio>1.99</precio>
+          <adquirido>false</adquirido>
+        </Huevos>
+        <Galletas>
+          <oferta>true</oferta>
+          <periodo_vigencia>
+            <inicio>2023-04-22</inicio>
+            <fin>2023-04-30</fin>
+          </periodo_vigencia>
+          <habitual>true</habitual>
+          <unidades>2</unidades>
+          <unidad_medida>paquetes</unidad_medida>
+          <precio>1.05</precio>
+          <adquirido>false</adquirido>
+        </Galletas>
+      </productos>
+    </Alcampo>
+    <Mercadona>
+      <direccion>Calle Molinar, 456</direccion>
+      <geolocalizacion>
+        <latitud>42.4276</latitud>
+        <longitud>5.7083</longitud>
+      </geolocalizacion>
+      <productos>
+        <Carne de ternera>
+          <oferta>true</oferta>
+          <periodo_vigencia>
+            <inicio>2023-04-05</inicio>
+            <fin>2023-04-10</fin>
+          </periodo_vigencia>
+          <habitual>false</habitual>
+          <unidades>1</unidades>
+          <unidad_medida>kilos</unidad_medida>
+          <precio>9.99</precio>
+          <adquirido>false</adquirido>
+        </Carne de ternera>
+        <Pan de molde>
+          <oferta>false</oferta>
+          <habitual>true</habitual>
+          <unidades>1</unidades>
+          <unidad_medida>paquete</unidad_medida>
+          <precio>1.5</precio>
+          <adquirido>true</adquirido>
+        </Pan de molde>
+        <Patatas Malla>
+          <oferta>true</oferta>
+          <periodo_vigencia>
+            <inicio>2023-05-03</inicio>
+            <fin>2023-05-12</fin>
+          </periodo_vigencia>
+          <habitual>true</habitual>
+          <unidades>5</unidades>
+          <unidad_medida>kilos</unidad_medida>
+          <precio>5.9</precio>
+          <adquirido>false</adquirido>
+        </Patatas Malla>
+      </productos>
+    </Mercadona>
+    <Día>
+      <direccion>Calle Rubiales, 789</direccion>
+      <geolocalizacion>
+        <latitud>53.4267</latitud>
+        <longitud>-10.706</longitud>
+      </geolocalizacion>
+      <productos>
+        <Pollo>
+          <oferta>true</oferta>
+          <periodo_vigencia>
+            <inicio>2023-04-15</inicio>
+            <fin>2023-04-25</fin>
+          </periodo_vigencia>
+          <habitual>true</habitual>
+          <unidades>1</unidades>
+          <unidad_medida>kilos</unidad_medida>
+          <precio>6.5</precio>
+          <adquirido>true</adquirido>
+        </Pollo>
+        <Yogures>
+          <oferta>false</oferta>
+          <habitual>true</habitual>
+          <unidades>1</unidades>
+          <unidad_medida>paquete</unidad_medida>
+          <precio>1.25</precio>
+          <adquirido>true</adquirido>
+        </Yogures>
+      </productos>
+    </Día>
   </supermercados>
-</root>
