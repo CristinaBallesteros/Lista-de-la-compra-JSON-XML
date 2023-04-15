@@ -1,60 +1,57 @@
 {
-    "supermercados": [
-      {
-        "nombre": "Alcampo",
-        "direccion": "Calle A, 123",
+    "supermercados":
+    {
+      "Alcampo":{
+        "direccion": "Calle Alcala, 123",
         "geolocalizacion": {
           "latitud": 40.4168,
           "longitud": -3.7038
         },
-        "productos": [
+        "productos": 
           {
-            "nombre": "Leche",
-            "oferta": true,
-            "periodo_vigencia": {
-              "inicio": "2023-04-01",
-              "fin": "2023-04-15"
+            "Leche":{
+              "oferta": true,
+              "periodo_vigencia": {
+                "inicio": "2023-04-01",
+                "fin": "2023-04-15"
+              },
+              "habitual": true,
+              "unidades": 6,
+              "unidad_medida": "litros",
+              "precio": 0.99,
+              "adquirido": true
             },
-            "habitual": true,
-            "unidades": 1,
-            "unidad_medida": "litros",
-            "precio": 0.99,
-            "adquirido": true
-          },
-          {
-            "nombre": "Huevos",
-            "oferta": false,
-            "habitual": true,
-            "unidades": 12,
-            "unidad_medida": "unidades",
-            "precio": 1.99,
-            "adquirido": false
-          },
-          {
-            "nombre": "Galletas",
-            "oferta": true,
-            "periodo_vigencia": {
-              "inicio": "2023-04-22",
-              "fin": "2023-04-30"
+            "Huevos":{
+              "oferta": false,
+              "habitual": true,
+              "unidades": 12,
+              "unidad_medida": "unidades",
+              "precio": 1.99,
+              "adquirido": false   
             },
-            "habitual": true,
-            "unidades": 2,
-            "unidad_medida": "paquetes",
-            "precio": 1.05,
-            "adquirido": false
+            "Galletas":{
+              "oferta": true,
+              "periodo_vigencia": {
+                "inicio": "2023-04-22",
+                "fin": "2023-04-30"
+              },
+              "habitual": true,
+              "unidades": 2,
+              "unidad_medida": "paquetes",
+              "precio": 1.05,
+              "adquirido": false
           }
-        ]
+        }
       },
-      {
-        "nombre": "Mercadona",
-        "direccion": "Calle B, 456",
+      "Mercadona":{
+        "direccion": "Calle Molinar, 456",
         "geolocalizacion": {
-          "latitud": 40.4276,
-          "longitud": -3.7083
+          "latitud": 42.4276,
+          "longitud": 5.7083
         },
-        "productos": [
-          {
-            "nombre": "Carne de ternera",
+        "productos":
+        {
+          "Carne de ternera":{
             "oferta": true,
             "periodo_vigencia": {
               "inicio": "2023-04-05",
@@ -66,8 +63,7 @@
             "precio": 9.99,
             "adquirido": false
           },
-          {
-            "nombre": "Pan de molde",
+          "Pan de molde":{
             "oferta": false,
             "habitual": true,
             "unidades": 1,
@@ -75,8 +71,7 @@
             "precio": 1.50,
             "adquirido": true
           },
-          {
-            "nombre":"Patatas",
+          "Patatas Malla":{
             "oferta":true,
             "periodo_vigencia":{
               "inicio": "2023-05-03",
@@ -88,18 +83,18 @@
             "precio":5.90,
             "adquirido":false
           }
-        ]
+        }
       },
+      "Día":
       {
-        "nombre": "Día",
-        "direccion": "Calle C, 789",
+        "direccion": "Calle Rubiales, 789",
         "geolocalizacion": {
           "latitud": 53.4267,
           "longitud": -10.706
         },
-        "productos": [
-          {
-            "nombre": "Pollo",
+        "productos": 
+        {
+          "Pollo":{
             "oferta": true,
             "periodo_vigencia": {
               "inicio": "2023-04-15",
@@ -111,8 +106,8 @@
             "precio": 6.50,
             "adquirido": true
           },
+          "Yogures":
           {
-            "nombre": "Yogures",
             "oferta": false,
             "habitual": true,
             "unidades": 1,
@@ -120,8 +115,7 @@
             "precio": 1.25,
             "adquirido": true
           }
-        ]
+        }
       }
-    ]
-  }
-  
+    }
+}
